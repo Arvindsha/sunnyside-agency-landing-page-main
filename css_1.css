@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&family=Rubik:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+}
+.navbar{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+}
+.link{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.link ul{
+    display: flex;
+}
+.link li{
+    list-style: none;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.link button{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+/*---------- banner------- */
+.banner{
+    height: 68vh;
+    width: 100%;
+    text-align: center;
+}
+
+.banner h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing:12px ;
+    margin: 55px 0px;
+}
+/*----------- main part-------- */
+.content a{
+    margin-left: 28%;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+#sec_a{
+    margin-left: 23%;
+}
+.transform{
+    height: 50vh;
+    width: 98.9vw;
+    display: flex;
+}
+.content{
+    height:100% ;
+    width: 50%;
+    padding: 120px 150 0px 150px;
+    font-size: 19px;
+}
+.content h2{
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 28%;
+    margin-right: 28%;
+
+}
+#sec_h{
+    
+    margin-left: 23%;
+    margin-right: 24%;
+}
+.content p{
+    margin-left: 28%;
+    margin-right: 23%;
+    font-size: 13px;
+    opacity: 0.5;
+    font-weight: 500;
+    line-height: 20px;
+}
+#sec_p{
+    margin-left: 23%;
+}
+.img1{
+    height: 151.8%;
+    width: 50%;
+    background-image: url("images/desktop/image-transform.jpg");
+}   
+.img2{
+    height: 152.1%;
+    width: 50%;
+    background-image: url("images/desktop/image-stand-out.jpg");
+}    
+
+.imgL{
+    height: 152.1%;
+    width: 50%;
+    background-image: url("images/desktop/image-graphic-design.jpg");
+}
+.imgR{
+    height: 152.1%;
+    width: 50%;
+    background-image: url("images/desktop/image-photography.jpg");
+   
+}
+.imgL h2{
+    text-align: center;
+    margin-top: 50%;
+    font-weight: 900;
+    color:  hsl(167, 40%, 24%)
+}
+.imgR h2{
+    text-align: center;
+    margin-top: 50%;
+    font-weight: 900;
+    color: hsl(198, 62%, 26%);
+}
+.imgL p{
+    text-align: center;
+    margin-left: 28%;
+    margin-right: 28%;
+    color: hsl(167, 40%, 24%);
+    opacity: 0.8;
+    font-size: small;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+.imgR p{
+    text-align: center;
+    margin-left: 28%;
+    margin-right: 28%;
+    color: hsl(198, 62%, 26%);
+    opacity: 0.8;
+    font-size: small;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+.main4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.transform4 h1{
+    text-align: center;
+    margin-top: 10%;
+    opacity: 0.6;
+    letter-spacing: 2px;
+}
+
+.main4 img{
+    height: 10vh;
+    width: 5vw;
+    margin-left: 36%;
+    margin-top: 24px;
+    border-radius: 50%;
+}
+
+.main4 p{
+    letter-spacing: 1px;
+    font-size: small;
+    opacity: 0.5;
+    margin-top: 10%;
+    margin-left: 63px;
+    margin-right: 63px;
+}
+.main4 h3{
+    margin-left: 33%;
+    margin-top: 20%;
+    
+    }
+#p1{
+    margin-top: 0px;
+    margin-left: 26%;
+}
+#p2{
+    margin-top: 0px;
+    margin-left: 26%;
+}
+#p3{
+    margin-top: 0px;
+    margin-left: 29%;
+}
+.imageP{
+    display: flex;
+}
+.imga img{
+    height: 50vh;
+    width: 24.6vw;
+}
+.last{
+  height: 50vh;
+  width: 98.3vw;
+  margin-top: -26px;
+    color:  hsl(168, 57%, 21%);
+    background-color: hsl(169, 26%, 56%);
+    
+}
+.part1 h1{
+   text-align: center;
+   padding-top: 5%;
+}
+.part2 ul{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 4%;
+    margin-left: 21%;
+    margin-right: 22%;
+    font-weight: 900;
+    color: hsl(168, 57%, 21%);
+    text-decoration: none;
+}
+.last a{
+    text-decoration: none;
+    color: hsl(168, 44%, 34%);
+}
+.last li{
+    list-style-type: none;
+}
+.part3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
